@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="icon" href="img_1620976687728.png">
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Lilita+One&family=Nunito:ital,wght@0,400;0,500;0,1000;1,300;1,400&family=Titan+One&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="icon" href="../css/knight bite/home/img_1620976687728.png">
+    <style>
+         *{
+   font-family: nunito;
+   font-weight: 400;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   -webkit-tap-highlight-color: transparent;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 13ch;
+    width: 100%;
+        }
+        nav{
+             position: fixed;
+            background-color: rgba(0, 0, 0, 0.236);
+            
+        }
+       .navbar  li{
+        list-style-type: none;
+        display: inline;
+        margin: 0px 10px; 
+        cursor: pointer;
+        transition: all .5s;
+       }
+       .navbar a{
+        color: white;
+        font-size: 2.25ch;
+        margin-right: 2.5ch;
+        text-decoration: none;
+        font-family: 'Varela Round', sans-serif;
+        transition: all .5s;
+       }
+       a:hover{
+        color: rgb(119, 49, 184);
+       }
+       .logo{
+        margin: 0px 70px;
+        align-items: center;
+        margin-top: 10px;
+       }
+       .bgimage{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        background:url(https://nrzl4apc.knight-bite.com/main/res/menu/banner.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+       }
+       .grid{
+        display: grid;
+    margin-top: 100px;
+    padding: 0 200px;
+    row-gap: 60px;
+    column-gap: 50px;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+       }
+       .grid .items h1:hover{
+         color:rgba(216, 204, 204, 0.918);
+         transition:all .5s ease-out;
+          transform: scale(1.2);
+         
+       }
+       
+       .grid .items img:hover{
+         transition:all .5s ease-out;
+          transform: scale(1.2);
+          
+       }
+       .items{
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+       }
+       
+       .items h1{
+        color: #fff;
+    font-size: 40px;
+    
+    margin: 0 0 15px;
+    font-family: 'Alkatra', cursive;
+       }
+       
+       .copy{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg,#C77BF4 0%,#FF5672 100%);
+    box-shadow: -5px -5px 19px rgba(0,0,0,.23);
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    font-size: 15px;
+}
+.msg{
+  position: fixed;
+top: 640px;
+  left: 1450px;
+  
+}
+.navbar span{
+   font-weight: 500;
+  font-size: 25px;
+  color: rgb(176, 9, 202);
+}
+    </style>
+</head>
+<body>
+    <nav class="bar">
+      <div class="logo"><a href="index.html"><img width="130ch"  src="https://nrzl4apc.knight-bite.com/main/res/brand-logo.svg" alt="Kinte-Bite-logo"></a></div> 
+       
+       <div class="navbar">
+        <li><a href="index.html">Home</a></li> 
+        <li><a href="about.html">About</a></li>
+        <li><a href="Menu.html"><span>@</span> Menu</a></li>
+        <li><a href="franchise.html">Franchise</a></li></div></nav>
+        <div class="bgimage">
+            <div class="grid">
+             <div class="items">
+                <img height="140px" src="burger-icon.png" alt="">
+                <h1>BURGER</h1>
+                <img src="add-icon.svg" alt="">
+             </div>
+             <div class="items">
+                <img  height="140px"  src="starters-icon.png" alt="">
+                <h1>FRISE/STARTERS</h1>
+                <img src="add-icon.svg" alt="">
+             </div>
+             <div class="items">
+                <img  height="140px"  src="main-course-icon.png" alt="">
+                <h1>MAIN COURSE</h1>
+                <img src="add-icon.svg" alt="">
+             </div>
+             <div class="items">
+                <img  height="140px"  src="drinks-icon.png" alt="">
+                <h1>DRINKS</h1>
+                <img src="add-icon.svg" alt="">
+             </div>
+             <div class="items">
+                <img  height="140px"  src="wrap-icon.png" alt="">
+                <h1>WRAPS</h1>
+                <img src="add-icon.svg" alt="">
+             </div>
+             <div class="items">
+                <img  height="100px"  src="desserts-icon.png" alt="">
+                <h1>DESSERTS</h1>
+                <img src="add-icon.svg" alt="">
+             </div>
+            </div>
+        </div>
+
+        <div class="copy">
+            <p>Ⓒ Copyright 2023. Knight Bite Foods Pvt. Ltd. All Rights Reserved</p>
+          </div>
+          <div class="msg"><img  style="width: 60px;
+            height: 60px;" src="fc_logo.png" alt=""></div>
+</body>
+</html>
